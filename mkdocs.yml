@@ -1,0 +1,51 @@
+site_name: Documentação Projeto Farmax
+site_description: Documentação Análise de Dados Projeto Farmax
+site_author: A3DATA
+site_url: https://docBIFARMAX.com/
+copyright: Desenvolvido por A3DATA
+nav:
+- Bem - vindo(a): index.md 
+- Antes de Comecar: Antes de Comecar.md
+- Dashboards: 
+  - Marketing: 
+    - Lançamentos: 1.2_Lançamentos.md
+    - Tabela de Produtos: 1.3_Tab. Produtos.md
+  - Qualidade:
+    - Mapa de Distribuição: 2.1_Mapa de Distribuição.md
+    - Mapa de Rastreabilidade: 2.2_Mapa de Rastreabilidade.md
+    - Mapa de Devolução: 2.3_Mapa de Devolução.md
+    - Mapa de Entrada: 2.3_Mapa de Entrada.md
+    - Liberação de Pedidos: 2.4_Liberação de Pedidos.md
+  - Financeiro: Financeiro.md
+  - Operações: Operações.md
+  - Logística: Logística.md
+
+theme:
+    name: material
+    language: pt
+    favicon: img/Selo_Fundo_Branco.ico.png
+    logo: img/Logo_Frase_Branco.ico.png"
+    features: 
+      - search.suggest
+      - search.highlight
+    palette:
+      - scheme: default
+        primary: indigo
+        accent: blue
+        toggle:
+            icon: material/toggle-switch-off-outline
+            name: Modo Escuro
+      - scheme: slate
+        primary: blue
+        toggle:
+            icon: material/toggle-switch
+            name: Modo Claro
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        baselevel: 2 # Nível básico dos cabeçalhos
+        separator: "_"
+    - pymdownx.highlight
+    - pymdownx.superfences
+    - pymdownx.inlinehilite
+    - pymdownx.keys

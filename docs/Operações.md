@@ -1,0 +1,5 @@
+# **Seja bem vindo (a)**
+### Documentação dashboards <span style = "color: blue">PCP / S&OP</span>, clique abaixo e navegue para o App no Power BI Service
+
+- [Tabela de Produtos](https://app.powerbi.com/Redirect?action=OpenApp&appId=f194a00f-199a-47b8-bce1-59bcb5635cac&ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37)
+- [Lançamentos](https://app.powerbi.com/Redirect?action=OpenApp&appId=f194a00f-199a-47b8-bce1-59bcb5635cac&ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37)
