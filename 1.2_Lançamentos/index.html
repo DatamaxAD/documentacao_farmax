@@ -361,6 +361,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tabelas" class="md-nav__link">
+    TABELAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#atualizacao_conjunto_de_dados" class="md-nav__link">
     ATUALIZAÇÃO CONJUNTO DE DADOS
   </a>
@@ -614,6 +621,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tabelas" class="md-nav__link">
+    TABELAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#atualizacao_conjunto_de_dados" class="md-nav__link">
     ATUALIZAÇÃO CONJUNTO DE DADOS
   </a>
@@ -653,15 +667,27 @@
 <h2 id="seja_bem_vindo_a"><strong>Seja bem vindo (a)</strong><a class="headerlink" href="#seja_bem_vindo_a" title="Permanent link">#</a></h2>
 <h4 id="documentacao_dos_dashboards_do_setor_de_marketing_clique_abaixo_e_navegue_para_o_app_no_power_bi_service">Documentação dos dashboards do setor de <span style = "color: blue">Marketing</span>, clique abaixo e navegue para o App no Power BI Service<a class="headerlink" href="#documentacao_dos_dashboards_do_setor_de_marketing_clique_abaixo_e_navegue_para_o_app_no_power_bi_service" title="Permanent link">#</a></h4>
 <ul>
-<li><a href="https://app.powerbi.com/Redirect?action=OpenApp&amp;appId=f194a00f-199a-47b8-bce1-59bcb5635cac&amp;ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37">Tabela de Produtos</a></li>
 <li><a href="https://app.powerbi.com/Redirect?action=OpenApp&amp;appId=f194a00f-199a-47b8-bce1-59bcb5635cac&amp;ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37">Lançamentos</a></li>
 </ul>
 <hr />
 <h4 id="objetivo">OBJETIVO<a class="headerlink" href="#objetivo" title="Permanent link">#</a></h4>
 <p>Acompanhamento do ciclo de lançamento do produto. </p>
 <h4 id="fonte_de_dados">FONTE DE DADOS<a class="headerlink" href="#fonte_de_dados" title="Permanent link">#</a></h4>
-<div class="highlight"><pre><span></span><code>Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com&quot;,&quot;farmaxcluster&quot;),com = Fonte{[Name=&quot;com&quot;]}[Data],mkt_report1 = com{[Name=&quot;mkt_report&quot;]}[Data]
+<div class="highlight"><pre><span></span><code>Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com&quot;,&quot;farmaxcluster&quot;),com = Fonte{[Name=&quot;com&quot;]}[Data],
+mkt_report1 = com{[Name=&quot;mkt_report&quot;]}[Data]
 </code></pre></div>
+<h4 id="tabelas">TABELAS<a class="headerlink" href="#tabelas" title="Permanent link">#</a></h4>
+<ol>
+<li>
+<p>Mkt_report</p>
+</li>
+<li>
+<p>Medidas</p>
+</li>
+<li>
+<p>Última atualizaçao </p>
+</li>
+</ol>
 <h4 id="atualizacao_conjunto_de_dados">ATUALIZAÇÃO CONJUNTO DE DADOS<a class="headerlink" href="#atualizacao_conjunto_de_dados" title="Permanent link">#</a></h4>
 <p>Atualização diária do conjunto de dados, às 06:30.</p>
 <h4 id="acesso">ACESSO<a class="headerlink" href="#acesso" title="Permanent link">#</a></h4>
