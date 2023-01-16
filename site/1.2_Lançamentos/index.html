@@ -361,6 +361,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tabelas" class="md-nav__link">
+    TABELAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#atualizacao_conjunto_de_dados" class="md-nav__link">
     ATUALIZAÇÃO CONJUNTO DE DADOS
   </a>
@@ -375,8 +382,42 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    
+  <a href="#usabilidade" class="md-nav__link">
+    USABILIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pagina_-_1" class="md-nav__link">
+    PÁGINA - 1
+  </a>
+  
+    <nav class="md-nav" aria-label="PÁGINA - 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dashboard_tabela_de_produtos_matriz_consultiva_tabela_de_produtos" class="md-nav__link">
+    DASHBOARD TABELA DE PRODUTOS: Matriz Consultiva | Tabela de Produtos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossario" class="md-nav__link">
+    Glossário:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pagina_-_2" class="md-nav__link">
+    PÁGINA - 2
   </a>
   
 </li>
@@ -621,6 +662,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tabelas" class="md-nav__link">
+    TABELAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#atualizacao_conjunto_de_dados" class="md-nav__link">
     ATUALIZAÇÃO CONJUNTO DE DADOS
   </a>
@@ -635,8 +683,42 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    
+  <a href="#usabilidade" class="md-nav__link">
+    USABILIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pagina_-_1" class="md-nav__link">
+    PÁGINA - 1
+  </a>
+  
+    <nav class="md-nav" aria-label="PÁGINA - 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dashboard_tabela_de_produtos_matriz_consultiva_tabela_de_produtos" class="md-nav__link">
+    DASHBOARD TABELA DE PRODUTOS: Matriz Consultiva | Tabela de Produtos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossario" class="md-nav__link">
+    Glossário:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pagina_-_2" class="md-nav__link">
+    PÁGINA - 2
   </a>
   
 </li>
@@ -667,23 +749,57 @@
 <h2 id="seja_bem_vindo_a"><strong>Seja bem vindo (a)</strong><a class="headerlink" href="#seja_bem_vindo_a" title="Permanent link">#</a></h2>
 <h4 id="documentacao_dos_dashboards_do_setor_de_marketing_clique_abaixo_e_navegue_para_o_app_no_power_bi_service">Documentação dos dashboards do setor de <span style = "color: blue">Marketing</span>, clique abaixo e navegue para o App no Power BI Service<a class="headerlink" href="#documentacao_dos_dashboards_do_setor_de_marketing_clique_abaixo_e_navegue_para_o_app_no_power_bi_service" title="Permanent link">#</a></h4>
 <ul>
-<li><a href="https://app.powerbi.com/Redirect?action=OpenApp&amp;appId=f194a00f-199a-47b8-bce1-59bcb5635cac&amp;ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37">Tabela de Produtos</a></li>
 <li><a href="https://app.powerbi.com/Redirect?action=OpenApp&amp;appId=f194a00f-199a-47b8-bce1-59bcb5635cac&amp;ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37">Lançamentos</a></li>
 </ul>
 <hr />
 <h4 id="objetivo">OBJETIVO<a class="headerlink" href="#objetivo" title="Permanent link">#</a></h4>
-<p>Acompanhamento do ciclo de lançamento do produto. </p>
+<p>Acompanhamento do ciclo de lançamento de produtos. </p>
 <h4 id="fonte_de_dados">FONTE DE DADOS<a class="headerlink" href="#fonte_de_dados" title="Permanent link">#</a></h4>
-<p>Fonte = AmazonRedshift.Database("farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com","farmaxcluster"),com = Fonte{[Name="com"]}[Data],mkt_report1 = com{[Name="mkt_report"]}[Data]</p>
+<div class="highlight"><pre><span></span><code>Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com&quot;,&quot;farmaxcluster&quot;),com = Fonte{[Name=&quot;com&quot;]}[Data],mkt_report1 = com{[Name=&quot;mkt_report&quot;]}[Data]
+</code></pre></div>
+<h4 id="tabelas">TABELAS<a class="headerlink" href="#tabelas" title="Permanent link">#</a></h4>
+<ol>
+<li>
+<p>Mkt_report</p>
+</li>
+<li>
+<p>Medidas</p>
+</li>
+<li>
+<p>Última atualizaçao </p>
+</li>
+</ol>
 <h4 id="atualizacao_conjunto_de_dados">ATUALIZAÇÃO CONJUNTO DE DADOS<a class="headerlink" href="#atualizacao_conjunto_de_dados" title="Permanent link">#</a></h4>
 <p>Atualização diária do conjunto de dados, às 06:30.</p>
 <h4 id="acesso">ACESSO<a class="headerlink" href="#acesso" title="Permanent link">#</a></h4>
-<p>Acesso via aplicativo Power BI, da seguinte forma:
-1- Acessar powerbi.com.br</p>
-<p>2 - Ir no painel de Navegação, opção "Aplicativos" ou "Aplicações"</p>
-<p>3 - Clicar no Aplicativo - Imagem abaixo&gt;
-<img alt="Imagem App Mkt" src="../img/App_Mkt.png" /></p>
-<h4 id="_1"><a class="headerlink" href="#_1" title="Permanent link">#</a></h4>
+<p>Acesso via aplicativo Power BI, da seguinte forma:</p>
+<ol>
+<li>
+<p>Acessar <a href="https://app.powerbi.com/home">powerbi.com.br</a></p>
+</li>
+<li>
+<p>Ir no painel de Navegação, opção "Aplicativos" ou "Aplicações"</p>
+</li>
+<li>
+<p>Clicar no Aplicativo - Imagem abaixo&gt;</p>
+</li>
+</ol>
+<p><img alt="Imagem App Mkt" src="../img_MKT/App_Mkt.png" /></p>
+<h4 id="usabilidade">USABILIDADE<a class="headerlink" href="#usabilidade" title="Permanent link">#</a></h4>
+<h4 id="pagina_-_1">PÁGINA - 1<a class="headerlink" href="#pagina_-_1" title="Permanent link">#</a></h4>
+<h5 id="dashboard_tabela_de_produtos_matriz_consultiva_tabela_de_produtos">DASHBOARD TABELA DE PRODUTOS: Matriz Consultiva | Tabela de Produtos<a class="headerlink" href="#dashboard_tabela_de_produtos_matriz_consultiva_tabela_de_produtos" title="Permanent link">#</a></h5>
+<p><img alt="Imagem App Mkt" src="../img_MKT/Dash_Lancamentos.png" /></p>
+<h4 id="glossario">Glossário:<a class="headerlink" href="#glossario" title="Permanent link">#</a></h4>
+<ol>
+<li>Cards resumo numérico</li>
+<li>Botão para limpar filtros</li>
+<li>Visual: <strong>Total de Produtos por Status</strong> </li>
+<li>Visual: <strong>Total de Produtos por período de lançamento</strong>  <font size ="2"> - Todos os produtos por data de lançamento </font></li>
+<li>Visual: <strong>Total de Produtos por período Fim do lançamento</strong>  <font size ="2"> - Todos os produtos por data Fim de lançamento </font></li>
+<li>Visual: <strong>Total de Lançamento por Segmento/Marca/Grupo</strong>  <font size ="2">- Utilize o filtro de visual "Categoria"</font></li>
+<li>Visual: <strong>Total de Produtos Descontinuados por Segmento/Marca/Grupo</strong>  <font size ="2">- Utilize o filtro de visual "Categoria"</font></li>
+</ol>
+<h4 id="pagina_-_2">PÁGINA - 2<a class="headerlink" href="#pagina_-_2" title="Permanent link">#</a></h4>
 
 
 
