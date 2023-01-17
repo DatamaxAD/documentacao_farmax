@@ -40,6 +40,8 @@ theme:
         toggle:
             icon: material/toggle-switch
             name: Modo Claro
+      -plugins:
+        - with-pdf
 markdown_extensions:
     - toc:
         permalink: "#"
