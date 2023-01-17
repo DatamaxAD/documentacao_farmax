@@ -24,7 +24,7 @@ theme:
     name: material
     language: pt
     favicon: img/Selo_Fundo_Branco.ico.png
-    logo: img/Logo_Frase_Branco.ico.png"
+    logo: img/Logo_Frase_Branco.ico.png
     features: 
       - search.suggest
       - search.highlight
