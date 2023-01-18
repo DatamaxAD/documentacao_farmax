@@ -6,6 +6,7 @@ Estão contidas as documentações relacionadas aos Dashboards construidos para 
 
 </font size = "1"> Clique e navegue para a documentação correspondente </font>
 
+* Corporativo
 * Marketing
 * Qualidade
 * Financeiro
