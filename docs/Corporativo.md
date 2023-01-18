@@ -9,7 +9,6 @@
 
 ## **DOCUMENTAÇÃO POWER BI** <font size ="2"> - (clique abaixo para visualizar) </font>
 
-
-[**Documentação**](img/[FARMAX - PRJ01#01 - DOC 12] Dasboard Farmax.pdf)
+[**Documentação**](img_MKT/CORPORATIVO.pdf)
 
 
