@@ -1,16 +1,52 @@
 # **Seja bem vindo (a)**
 
 <font size ="2">
-**Documentação do dashboard <span style = "color: blue">Dashboard Corporativo</span>, clique abaixo e navegue para o dashboard no Power BI Service**
+**Documentação do dashboard <span style = "color: blue">Corporativo</span>, clique abaixo e navegue para Power BI Service**
 
-<a href="https://app.powerbi.com/Redirect?action=OpenApp&appId=f194a00f-199a-47b8-bce1-59bcb5635cac&ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37" target="_blank">
+<a href="https://app.powerbi.com/links/KA-5DCCH5e?ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37&pbi_source=linkShare" target="_blank">
 **BI Corporativo**
 </a>
 
+
+---
+<font size ="2">
+
+## **OBJETIVO**
+Exibição dos principais indicadores corporativos.
+
+## **FONTE DE DADOS**
+
+1. **order_sale**
+~~~
+let
+    Fonte = AmazonRedshift.Database("farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com:5439","farmaxcluster"),
+    public = Fonte{[Name="public"]}[Data],
+    obt_sales = public{[Name="obt_sales"]}[Data]
+~~~
+
+---
+## **TABELAS**
+
+1. Mkt_report
+
+2. Medidas
+
+3. Última atualizaçao 
+
+---
+## **ATUALIZAÇÃO CONJUNTO DE DADOS**
+Atualização diária do conjunto de dados, a cada 1 (uma) hora.
+
+## **USABILIDADE**
+
+---
+## **ACESSO**
+
+
+---
+
 ## **DOCUMENTAÇÃO POWER BI** <font size ="2"> - (clique abaixo para visualizar) </font>
 
-[**Documentação**](img_MKT/CORPORATIVO.pdf)
+[**Documentação**](img_Corporativo/CORPORATIVO.htm)
 
-teste
-
-
+[**Documentação_old**](img_Corporativo/CORPORATIVO_old.pdf)
