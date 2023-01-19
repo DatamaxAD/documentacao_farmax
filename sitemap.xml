@@ -16,7 +16,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docBIFARMAX.com/1_An%C3%A1lise%20de%20Dados/</loc>
+         <loc>https://docBIFARMAX.com/1_An%C3%A1lise%20de%20Dados%20copy/</loc>
          <lastmod>2023-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -57,6 +57,11 @@
     </url>
     <url>
          <loc>https://docBIFARMAX.com/Corporativo/</loc>
+         <lastmod>2023-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docBIFARMAX.com/Engenharia%20de%20Dados/</loc>
          <lastmod>2023-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
