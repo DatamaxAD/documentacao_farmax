@@ -5,8 +5,9 @@ site_url: https://docBIFARMAX.com/
 copyright: Desenvolvido por A3DATA
 nav:
 - Bem - vindo(a): index.md 
-- Antes de Comecar: Antes de Comecar.md
-- Dashboards: 
+
+- Análise de Dados: 
+  - Antes de Começar: 1_Análise de Dados.md
   - Corporativo: Corporativo.md
   - Marketing: 
     - Lançamentos: 1.2_Lançamentos.md
