@@ -22,6 +22,8 @@ nav:
   - Operações: Operações.md
   - Logística: Logística.md
 
+- Engenharia de Dados: Engenharia de Dados.md
+
 theme:
     name: material
     language: pt
