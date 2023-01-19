@@ -50,3 +50,5 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.inlinehilite
     - pymdownx.keys
+    - attr_list
+    

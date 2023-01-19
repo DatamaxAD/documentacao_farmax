@@ -312,6 +312,48 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    OBJETIVO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fonte_de_dados" class="md-nav__link">
+    FONTE DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelas" class="md-nav__link">
+    TABELAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atualizacao_conjunto_de_dados" class="md-nav__link">
+    ATUALIZAÇÃO CONJUNTO DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    USABILIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acesso" class="md-nav__link">
+    ACESSO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#documentacao_power_bi_-_clique_abaixo_para_visualizar" class="md-nav__link">
     DOCUMENTAÇÃO POWER BI  - (clique abaixo para visualizar) 
   </a>
@@ -577,6 +619,48 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    OBJETIVO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fonte_de_dados" class="md-nav__link">
+    FONTE DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabelas" class="md-nav__link">
+    TABELAS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atualizacao_conjunto_de_dados" class="md-nav__link">
+    ATUALIZAÇÃO CONJUNTO DE DADOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    USABILIDADE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acesso" class="md-nav__link">
+    ACESSO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#documentacao_power_bi_-_clique_abaixo_para_visualizar" class="md-nav__link">
     DOCUMENTAÇÃO POWER BI  - (clique abaixo para visualizar) 
   </a>
@@ -608,12 +692,46 @@
 
 <h2 id="seja_bem_vindo_a"><strong>Seja bem vindo (a)</strong><a class="headerlink" href="#seja_bem_vindo_a" title="Permanent link">#</a></h2>
 <p><font size ="2">
-<strong>Documentação do dashboard <span style = "color: blue">Dashboard Corporativo</span>, clique abaixo e navegue para o dashboard no Power BI Service</strong></p>
-<p><a href="https://app.powerbi.com/Redirect?action=OpenApp&appId=f194a00f-199a-47b8-bce1-59bcb5635cac&ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37" target="_blank">
+<strong>Documentação do dashboard <span style = "color: blue">Corporativo</span>, clique abaixo e navegue para Power BI Service</strong></p>
+<p><a href="https://app.powerbi.com/links/KA-5DCCH5e?ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37&pbi_source=linkShare" target="_blank">
 <strong>BI Corporativo</strong>
 </a></p>
+<hr />
+<p><font size ="2"></p>
+<h3 id="objetivo"><strong>OBJETIVO</strong><a class="headerlink" href="#objetivo" title="Permanent link">#</a></h3>
+<p>Exibição dos principais indicadores corporativos.</p>
+<h3 id="fonte_de_dados"><strong>FONTE DE DADOS</strong><a class="headerlink" href="#fonte_de_dados" title="Permanent link">#</a></h3>
+<ol>
+<li><strong>order_sale</strong>
+<div class="highlight"><pre><span></span><code>let
+    Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com:5439&quot;,&quot;farmaxcluster&quot;),
+    public = Fonte{[Name=&quot;public&quot;]}[Data],
+    obt_sales = public{[Name=&quot;obt_sales&quot;]}[Data]
+</code></pre></div></li>
+</ol>
+<hr />
+<h3 id="tabelas"><strong>TABELAS</strong><a class="headerlink" href="#tabelas" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>Mkt_report</p>
+</li>
+<li>
+<p>Medidas</p>
+</li>
+<li>
+<p>Última atualizaçao </p>
+</li>
+</ol>
+<hr />
+<h3 id="atualizacao_conjunto_de_dados"><strong>ATUALIZAÇÃO CONJUNTO DE DADOS</strong><a class="headerlink" href="#atualizacao_conjunto_de_dados" title="Permanent link">#</a></h3>
+<p>Atualização diária do conjunto de dados, a cada 1 (uma) hora.</p>
+<h3 id="usabilidade"><strong>USABILIDADE</strong><a class="headerlink" href="#usabilidade" title="Permanent link">#</a></h3>
+<hr />
+<h3 id="acesso"><strong>ACESSO</strong><a class="headerlink" href="#acesso" title="Permanent link">#</a></h3>
+<hr />
 <h3 id="documentacao_power_bi_-_clique_abaixo_para_visualizar"><strong>DOCUMENTAÇÃO POWER BI</strong> <font size ="2"> - (clique abaixo para visualizar) </font><a class="headerlink" href="#documentacao_power_bi_-_clique_abaixo_para_visualizar" title="Permanent link">#</a></h3>
-<p><a href="../img_MKT/CORPORATIVO.pdf"><strong>Documentação</strong></a></p>
+<p><a href="../img_Corporativo/CORPORATIVO.htm"><strong>Documentação</strong></a></p>
+<p><a href="../img_Corporativo/CORPORATIVO_old.pdf"><strong>Documentação_old</strong></a></p>
 
 
 
