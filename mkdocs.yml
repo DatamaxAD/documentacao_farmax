@@ -8,21 +8,20 @@ nav:
 
 - Análise de Dados: 
   - Antes de Começar: 1_Análise de Dados.md
-  - Corporativo: Corporativo.md
+  - Corporativo: 1.1_Corporativo.md
   - Marketing: 
     - Lançamentos: 1.2_Lançamentos.md
     - Tabela de Produtos: 1.3_Tab. Produtos.md
   - Qualidade:
-    - Mapa de Distribuição: 2.1_Mapa de Distribuição.md
-    - Mapa de Rastreabilidade: 2.2_Mapa de Rastreabilidade.md
-    - Mapa de Devolução: 2.3_Mapa de Devolução.md
-    - Mapa de Entrada: 2.3_Mapa de Entrada.md
-    - Liberação de Pedidos: 2.4_Liberação de Pedidos.md
-  - Financeiro: Financeiro.md
-  - Operações: Operações.md
-  - Logística: Logística.md
-
-- Engenharia de Dados: Engenharia de Dados.md
+    - Mapa de Distribuição: 1.4_Mapa de Distribuição.md
+    - Mapa de Rastreabilidade: 1.5_Mapa de Rastreabilidade.md
+    - Mapa de Devolução: 1.6_Mapa de Devolução.md
+    - Mapa de Entrada: 1.7_Mapa de Entrada.md
+    - Liberação de Pedidos: 1.8_Liberação de Pedidos.md
+  - Financeiro: 1.9_Financeiro.md
+  - Logística: 1.10_Logística.md
+  - Operações: 1.11_Operações.md
+- Engenharia de Dados: 2_Engenharia de Dados.md
 
 theme:
     name: material
