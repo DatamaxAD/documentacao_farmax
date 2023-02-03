@@ -410,15 +410,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visao_geral_lancamentos" class="md-nav__link">
-    VISÃO GERAL LANÇAMENTOS
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#matriz_consultiva_-_lancamentos" class="md-nav__link">
-    MATRIZ CONSULTIVA - LANÇAMENTOS
+  <a href="#matriz_consultiva_-_produtos" class="md-nav__link">
+    MATRIZ CONSULTIVA - PRODUTOS
   </a>
   
 </li>
@@ -712,15 +705,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visao_geral_lancamentos" class="md-nav__link">
-    VISÃO GERAL LANÇAMENTOS
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#matriz_consultiva_-_lancamentos" class="md-nav__link">
-    MATRIZ CONSULTIVA - LANÇAMENTOS
+  <a href="#matriz_consultiva_-_produtos" class="md-nav__link">
+    MATRIZ CONSULTIVA - PRODUTOS
   </a>
   
 </li>
@@ -778,12 +764,12 @@
 <p><font size ="2">
 <strong>Documentação dos dashboards do setor de <span style = "color: blue">Marketing</span>, clique abaixo e navegue para o App no Power BI Service</strong></p>
 <p><a href="https://app.powerbi.com/Redirect?action=OpenApp&appId=f194a00f-199a-47b8-bce1-59bcb5635cac&ctid=4019cfa9-aae5-4964-912e-b0e0bb606d37" target="_blank">
-<strong>Lançamentos</strong>
+<strong>Aplicativo Marketing </strong>
 </a></p>
 <hr />
 <p><font size ="2"></p>
 <h3 id="objetivo"><strong>OBJETIVO</strong><a class="headerlink" href="#objetivo" title="Permanent link">#</a></h3>
-<p>Acompanhamento do ciclo de lançamento de produtos. </p>
+<p>É utilizado para consultar detalhamento do produto que será utilzado em campanha promocional.</p>
 <h3 id="fonte_de_dados"><strong>FONTE DE DADOS</strong><a class="headerlink" href="#fonte_de_dados" title="Permanent link">#</a></h3>
 <div class="highlight"><pre><span></span><code>Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com&quot;,&quot;farmaxcluster&quot;),com = Fonte{[Name=&quot;com&quot;]}[Data],mkt_report1 = com{[Name=&quot;mkt_report&quot;]}[Data]
 </code></pre></div>
@@ -797,12 +783,12 @@
 <p>Medidas</p>
 </li>
 <li>
-<p>Última atualizaçao </p>
+<p>Última atualização </p>
 </li>
 </ol>
 <hr />
 <h3 id="atualizacao_conjunto_de_dados"><strong>ATUALIZAÇÃO CONJUNTO DE DADOS</strong><a class="headerlink" href="#atualizacao_conjunto_de_dados" title="Permanent link">#</a></h3>
-<p>Atualização diária do conjunto de dados, às 06:30.</p>
+<p>Atualização diária do conjunto de dados, às 06:30 / 08:30 / 10:30 / 12:30 / 14:30 / 16:30 / 18:30.</p>
 <hr />
 <h3 id="acesso"><strong>ACESSO</strong><a class="headerlink" href="#acesso" title="Permanent link">#</a></h3>
 <p>Acesso via aplicativo Power BI, da seguinte forma:</p>
@@ -821,23 +807,8 @@
 <p><img alt="Imagem App Mkt" src="../AD_MKT/App_Mkt.png" /></p>
 <hr />
 <h3 id="usabilidade"><strong>USABILIDADE</strong><a class="headerlink" href="#usabilidade" title="Permanent link">#</a></h3>
-<p><strong>PÁGINA - 1</strong></p>
-<h4 id="visao_geral_lancamentos"><strong>VISÃO GERAL LANÇAMENTOS</strong><a class="headerlink" href="#visao_geral_lancamentos" title="Permanent link">#</a></h4>
-<p><img alt="Imagem Visão Geral" src="../AD_MKT/Dash_Lancamentos.png" /></p>
-<p><strong>Glossário:</strong></p>
-<ol>
-<li>Cards resumo numérico</li>
-<li>Botão para limpar filtros</li>
-<li>Visual: <strong>Total de Produtos por Status</strong> </li>
-<li>Visual: <strong>Total de Produtos por período de lançamento</strong>  <font size ="2"> - Todos os produtos por data de lançamento </font></li>
-<li>Visual: <strong>Total de Produtos por período Fim do lançamento</strong>  <font size ="2"> - Todos os produtos por data Fim de lançamento </font></li>
-<li>Visual: <strong>Total de Lançamento por Segmento/Marca/Grupo</strong>  <font size ="2">- Utilize o filtro de visual "Categoria"</font></li>
-<li>Visual: <strong>Total de Produtos Descontinuados por Segmento/Marca/Grupo</strong>  <font size ="2">- Utilize o filtro de visual "Categoria"</font></li>
-</ol>
-<hr />
-<p><strong>PÁGINA - 2</strong></p>
-<h4 id="matriz_consultiva_-_lancamentos"><strong>MATRIZ CONSULTIVA - LANÇAMENTOS</strong><a class="headerlink" href="#matriz_consultiva_-_lancamentos" title="Permanent link">#</a></h4>
-<p><img alt="Matriz" src="../AD_MKT/Dash_Lancamentos_Matriz.png" /></p>
+<h4 id="matriz_consultiva_-_produtos"><strong>MATRIZ CONSULTIVA - PRODUTOS</strong><a class="headerlink" href="#matriz_consultiva_-_produtos" title="Permanent link">#</a></h4>
+<p><img alt="Matriz" src="../AD_MKT/Dash_Produtos_Matriz.png" /></p>
 <p><strong>Glossário:</strong></p>
 <ol>
 <li>Cards resumo numérico</li>
@@ -851,7 +822,7 @@
 </ol>
 <hr />
 <h3 id="documentacao_power_bi_-_clique_abaixo_para_visualizar"><strong>DOCUMENTAÇÃO POWER BI</strong> <font size ="2"> - (clique abaixo para visualizar) </font><a class="headerlink" href="#documentacao_power_bi_-_clique_abaixo_para_visualizar" title="Permanent link">#</a></h3>
-<p><a href="../AD_MKT/LAN%C3%87AMENTOS.htm"><strong>Documentação</strong></a></p>
+<p><a href="../AD_MKT/LISTA%20DE%20PRODUTOS.htm"><strong>Documentação</strong></a></p>
 <h3 id="canvas_-_clique_abaixo_para_visualizar"><strong>CANVAS</strong> <font size ="2"> - (clique abaixo para visualizar) </font><a class="headerlink" href="#canvas_-_clique_abaixo_para_visualizar" title="Permanent link">#</a></h3>
 <p><a href="../AD_MKT/Canvas_Marketing.pdf"><strong>Canvas</strong></a></p>
 <hr />
