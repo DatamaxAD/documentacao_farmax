@@ -414,8 +414,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
-    OBJETIVO
+  <a href="#objetivo_-_mapa_de_distribuicao" class="md-nav__link">
+    OBJETIVO - MAPA DE DISTRIBUIÇÃO
   </a>
   
 </li>
@@ -457,8 +457,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#matriz_consultiva_-_produtos" class="md-nav__link">
-    MATRIZ CONSULTIVA - PRODUTOS
+  <a href="#visao_geral_-_distribuicoes" class="md-nav__link">
+    VISÃO GERAL - DISTRIBUIÇÕES*
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matriz_consultiva_-_distribuicoes" class="md-nav__link">
+    MATRIZ CONSULTIVA - DISTRIBUIÇÕES*
   </a>
   
 </li>
@@ -662,8 +669,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
-    OBJETIVO
+  <a href="#objetivo_-_mapa_de_distribuicao" class="md-nav__link">
+    OBJETIVO - MAPA DE DISTRIBUIÇÃO
   </a>
   
 </li>
@@ -705,8 +712,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#matriz_consultiva_-_produtos" class="md-nav__link">
-    MATRIZ CONSULTIVA - PRODUTOS
+  <a href="#visao_geral_-_distribuicoes" class="md-nav__link">
+    VISÃO GERAL - DISTRIBUIÇÕES*
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matriz_consultiva_-_distribuicoes" class="md-nav__link">
+    MATRIZ CONSULTIVA - DISTRIBUIÇÕES*
   </a>
   
 </li>
@@ -768,13 +782,13 @@
 </a></p>
 <hr />
 <p><font size ="2"></p>
-<h3 id="objetivo"><strong>OBJETIVO</strong><a class="headerlink" href="#objetivo" title="Permanent link">#</a></h3>
+<h3 id="objetivo_-_mapa_de_distribuicao"><strong>OBJETIVO - MAPA DE DISTRIBUIÇÃO</strong><a class="headerlink" href="#objetivo_-_mapa_de_distribuicao" title="Permanent link">#</a></h3>
 <p>É utilizado para rastreabilidade da distribuição de um lote de produto acabado para os clientes.</p>
 <h3 id="fonte_de_dados"><strong>FONTE DE DADOS</strong><a class="headerlink" href="#fonte_de_dados" title="Permanent link">#</a></h3>
 <div class="highlight"><pre><span></span><code>let
    Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com&quot;,&quot;farmaxcluster&quot;),
    qlt = Fonte{[Name=&quot;qlt&quot;]}[Data],
-   dim_distribuition_map = qlt{[Name=&quot;dim_distribuition_map&quot;]}[Data],
+   dim_distribuition_map = qlt{[Name=&quot;dim_distribuition_map&quot;]}[Data]
 </code></pre></div>
 <hr />
 <h3 id="tabelas"><strong>TABELAS</strong><a class="headerlink" href="#tabelas" title="Permanent link">#</a></h3>
@@ -822,27 +836,40 @@
 <p><img alt="Imagem App Mkt" src="../AD_Qualidade/APP_QUALIDADE.png" /></p>
 <hr />
 <h3 id="usabilidade"><strong>USABILIDADE</strong><a class="headerlink" href="#usabilidade" title="Permanent link">#</a></h3>
-<h4 id="matriz_consultiva_-_produtos"><strong>MATRIZ CONSULTIVA - PRODUTOS</strong><a class="headerlink" href="#matriz_consultiva_-_produtos" title="Permanent link">#</a></h4>
-<p><img alt="Matriz" src="../AD_Qualidade/APP_QUALIDADE.png" /></p>
+<h4 id="visao_geral_-_distribuicoes"><em>VISÃO GERAL - DISTRIBUIÇÕES</em>*<a class="headerlink" href="#visao_geral_-_distribuicoes" title="Permanent link">#</a></h4>
+<p><img alt="Matriz" src="../AD_Qualidade/DISTRIBUICAO_01_VISAO_GERAL.png" /></p>
 <p><strong>Glossário:</strong></p>
 <ol>
 <li>Cards resumo numérico</li>
 <li>Botão para limpar filtros</li>
-<li>Filtro por <strong>Texto</strong></li>
-<li>Filtro por <strong>Cód. Do Produto</strong></li>
-<li>Filtro por <strong>Status</strong></li>
-<li>Filtro por <strong>Marca</strong></li>
-<li>Filtro por <strong>Grupo</strong></li>
-<li>Filtro por <strong>Segmento</strong></li>
+<li>Visual: <strong>Filtro por Ano de Faturamento</strong> </li>
+<li>Visual: <strong>Total de Distribuição por período de Faturamento</strong>  <font size ="2"> - Todos os produtos por data de distribuição  </font></li>
+<li>Visual: <strong>Top Materiais com mais distribuições</strong>  <font size ="2"> - Ranking dinâmico, utilize o filtro ao lado do visual </font></li>
+<li>Visual: <strong>Top Clientes com mais distribuições</strong>  <font size ="2"> - Ranking dinâmico, utilize o filtro ao lado do visual </font></li>
+<li>Visual: <strong>Total de Distribuições por Estado</strong></li>
+</ol>
+<hr />
+<h4 id="matriz_consultiva_-_distribuicoes"><em>MATRIZ CONSULTIVA - DISTRIBUIÇÕES</em>*<a class="headerlink" href="#matriz_consultiva_-_distribuicoes" title="Permanent link">#</a></h4>
+<p><img alt="Matriz" src="../AD_Qualidade/DISTRIBUICAO_02_MATRIZ.png" /></p>
+<p><strong>Glossário:</strong></p>
+<ol>
+<li>Cards resumo numérico</li>
+<li>Botão para limpar filtros</li>
+<li>Filtro por <strong>Data do Faturamento</strong></li>
+<li>Filtro por <strong>Tipo de Movimentação</strong></li>
+<li>Filtro por <strong>Lote</strong></li>
+<li>Filtro por <strong>Código do Material</strong></li>
+<li>Filtro de Texto por <strong>Descrição ou Código do Material</strong></li>
+<li>Filtro Cliente por <strong>Descrição ou Código do Cliente</strong></li>
 </ol>
 <hr />
 <h3 id="documentacao_power_bi_-_clique_abaixo_para_visualizar"><strong>DOCUMENTAÇÃO POWER BI</strong> <font size ="2"> - (clique abaixo para visualizar) </font><a class="headerlink" href="#documentacao_power_bi_-_clique_abaixo_para_visualizar" title="Permanent link">#</a></h3>
-<p><a href="../AD_Qualidade/DOC_PBI_DISTRIBUI%C3%87%C3%83O.htm"><strong>Documentação</strong></a></p>
+<p><a href="../AD_Qualidade/DOC_PBI_DISTRIBUICAO.htm"><strong>Documentação</strong></a></p>
 <h3 id="canvas_-_clique_abaixo_para_visualizar"><strong>CANVAS</strong> <font size ="2"> - (clique abaixo para visualizar) </font><a class="headerlink" href="#canvas_-_clique_abaixo_para_visualizar" title="Permanent link">#</a></h3>
-<p><a href="../AD_Qualidade/Canvas%20Qualidade.pdf"><strong>Canvas</strong></a></p>
+<p><a href="../AD_Qualidade/CANVAS_QUALIDADE.pdf"><strong>Canvas</strong></a></p>
 <hr />
 <h3 id="manual_do_usuario_-_clique_abaixo_para_visualizar"><strong>MANUAL DO USUÁRIO</strong> <font size ="2"> - (clique abaixo para visualizar) </font><a class="headerlink" href="#manual_do_usuario_-_clique_abaixo_para_visualizar" title="Permanent link">#</a></h3>
-<p><a href="../AD_Qualidade/Manual%20usu%C3%A1rio%20Qualidade.pdf"><strong>Manual do Usuário</strong></a></p>
+<p><a href="../AD_Qualidade/MANUAL_USUARIO.pdf"><strong>Manual do Usuário</strong></a></p>
 <p></font></p>
 
 

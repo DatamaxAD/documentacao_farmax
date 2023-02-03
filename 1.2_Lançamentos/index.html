@@ -353,8 +353,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
-    OBJETIVO
+  <a href="#objetivo_-_lancamentos" class="md-nav__link">
+    OBJETIVO - LANÇAMENTOS
   </a>
   
 </li>
@@ -669,8 +669,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
-    OBJETIVO
+  <a href="#objetivo_-_lancamentos" class="md-nav__link">
+    OBJETIVO - LANÇAMENTOS
   </a>
   
 </li>
@@ -782,10 +782,12 @@
 </a></p>
 <hr />
 <p><font size ="2"></p>
-<h3 id="objetivo"><strong>OBJETIVO</strong><a class="headerlink" href="#objetivo" title="Permanent link">#</a></h3>
+<h3 id="objetivo_-_lancamentos"><strong>OBJETIVO - LANÇAMENTOS</strong><a class="headerlink" href="#objetivo_-_lancamentos" title="Permanent link">#</a></h3>
 <p>Acompanhamento do ciclo de lançamento de produtos. </p>
 <h3 id="fonte_de_dados"><strong>FONTE DE DADOS</strong><a class="headerlink" href="#fonte_de_dados" title="Permanent link">#</a></h3>
-<div class="highlight"><pre><span></span><code>Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com&quot;,&quot;farmaxcluster&quot;),com = Fonte{[Name=&quot;com&quot;]}[Data],mkt_report1 = com{[Name=&quot;mkt_report&quot;]}[Data]
+<div class="highlight"><pre><span></span><code>let
+    Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com&quot;,&quot;farmaxcluster&quot;)
+    ,com = Fonte{[Name=&quot;com&quot;]}[Data],mkt_report1 = com{[Name=&quot;mkt_report&quot;]}[Data]
 </code></pre></div>
 <hr />
 <h3 id="tabelas"><strong>TABELAS</strong><a class="headerlink" href="#tabelas" title="Permanent link">#</a></h3>
