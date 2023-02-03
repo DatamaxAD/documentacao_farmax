@@ -716,24 +716,118 @@
 <p>Exibição dos principais indicadores corporativos.</p>
 <h3 id="fonte_de_dados"><strong>FONTE DE DADOS</strong><a class="headerlink" href="#fonte_de_dados" title="Permanent link">#</a></h3>
 <ol>
-<li><strong>order_sale</strong>
+<li>
+<p><strong>obt_sales</strong>
 <div class="highlight"><pre><span></span><code>let
     Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com:5439&quot;,&quot;farmaxcluster&quot;),
     public = Fonte{[Name=&quot;public&quot;]}[Data],
     obt_sales = public{[Name=&quot;obt_sales&quot;]}[Data]
-</code></pre></div></li>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>CombustÍveis</strong>
+<div class="highlight"><pre><span></span><code>let
+    Fonte = Csv.Document(Web.Contents(&quot; https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/qus/ultimas-4-semanas-gasolina-etanol.csv&quot;),
+    [Delimiter=&quot;;&quot;, Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None])
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Marca</strong>
+<div class="highlight"><pre><span></span><code>let
+    Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com:5439&quot;,&quot;farmaxcluster&quot;),
+    public = Fonte{[Name=&quot;public&quot;]}[Data],
+    obt_sales = public{[Name=&quot;dim_material&quot;]}[Data]
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>dim_return</strong>
+<div class="highlight"><pre><span></span><code>let
+    Fonte = AmazonRedshift.Database(&quot;farmax-cluster.cdkgzqhbae0k.us-east-1.redshift.amazonaws.com:5439&quot;,&quot;farmaxcluster&quot;),
+    public = Fonte{[Name=&quot;public&quot;]}[Data],
+    dim_return1 = public{[Name=&quot;dim_return&quot;]}[Data]
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>USD</strong>
+<div class="highlight"><pre><span></span><code>let
+    Fonte = Web.BrowserContents(&quot;https://www.investing.com/currencies/usd-brl-historical-data&quot;)
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>EUR</strong>
+<div class="highlight"><pre><span></span><code>let
+    Fonte = Web.BrowserContents(&quot;https://www.investing.com/currencies/eur-brl-historical-data&quot;),
+</code></pre></div></p>
+</li>
 </ol>
 <hr />
 <h3 id="tabelas"><strong>TABELAS</strong><a class="headerlink" href="#tabelas" title="Permanent link">#</a></h3>
 <ol>
 <li>
-<p>Mkt_report</p>
+<p>calendar</p>
 </li>
 <li>
-<p>Medidas</p>
+<p>order_sale</p>
 </li>
 <li>
-<p>Última atualizaçao </p>
+<p>order_billing</p>
+</li>
+<li>
+<p>seller</p>
+</li>
+<li>
+<p>customer</p>
+</li>
+<li>
+<p>obt</p>
+</li>
+<li>
+<p>Meses</p>
+</li>
+<li>
+<p>general_target</p>
+</li>
+<li>
+<p>Combustiveis</p>
+</li>
+<li>
+<p>seller_target</p>
+</li>
+<li>
+<p>Anos</p>
+</li>
+<li>
+<p>Regionais</p>
+</li>
+<li>
+<p>Marca</p>
+</li>
+<li>
+<p>dim_return</p>
+</li>
+<li>
+<p>LOGISTICA E CS</p>
+</li>
+<li>
+<p>RLS_GERENTES</p>
+</li>
+<li>
+<p>RLS_VENDEDORES</p>
+</li>
+<li>
+<p>Feriados</p>
+</li>
+<li>
+<p>Table</p>
+</li>
+<li>
+<p>Table 2</p>
+</li>
+<li>
+<p>USD</p>
+</li>
+<li>
+<p>EUR</p>
 </li>
 </ol>
 <hr />
