@@ -7,22 +7,22 @@ nav:
 - Bem - vindo(a): index.md 
 
 - Análise de Dados: 
-  - Antes de Começar: 1_Análise de Dados.md
+  - Antes de Começar: 1_Análise_de_Dados.md
   - Corporativo: 1.1_Corporativo.md
   - Marketing: 
     - Lançamentos: 1.2_Lançamentos.md
-    - Tabela de Produtos: 1.3_Tab. Produtos.md
+    - Tabela de Produtos: 1.3_Tab_Produtos.md
   - Qualidade:
-    - Mapa de Distribuição: 1.4_Mapa de Distribuição.md
-    - Mapa de Rastreabilidade: 1.5_Mapa de Rastreabilidade.md
-    - Mapa de Devolução: 1.6_Mapa de Devolução.md
-    - Mapa de Entrada: 1.7_Mapa de Entrada.md
-    - Liberação de Pedidos: 1.8_Liberação de Pedidos.md
-  - Financeiro: 1.9_Financeiro.md
-  - Logística: 1.10_Logística.md
+    - Mapa de Distribuição: 1.4_Mapa_de_Distribuição.md
+    - Mapa de Rastreabilidade: 1.5_Mapa_de_Rastreabilidade.md
+    - Mapa de Devolução: 1.6_Mapa_de_Devolução.md
+    - Mapa de Entrada: 1.7_Mapa_de_Entrada.md
+    - Liberação de Pedidos: 1.8_Liberação_de_Pedidos.md
+  - PMP: 
+    - PMP: 1.9_PMP.md
   - Planejamento: 
-    - Planejamento de Produção: 1.11_Planejamento.md
-- Engenharia de Dados: 2_Engenharia de Dados.md
+    - Planejamento de Produção: 1.10_Planejamento.md
+- Engenharia de Dados: 2_Engenharia.md
 
 theme:
     name: material

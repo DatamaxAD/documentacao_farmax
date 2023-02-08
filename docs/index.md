@@ -5,5 +5,5 @@ Todas as documentações contidas nesse sistema tem como objetivo auxiliar os pr
 Estão contidas as documentações relacionadas à Engenharia de Dados e Análise de Dados
 
 
-[Documentação Engenharia de Dados](2_Engenharia de Dados.md){ .md-button .md-button--primary }
-[Documentação Análise de Dados](1_Análise de Dados.md){ .md-button}
+[Documentação Engenharia de Dados](2_Engenharia.md){ .md-button .md-button--primary }
+[Documentação Análise de Dados](1_Análise_de_Dados.md){ .md-button}
