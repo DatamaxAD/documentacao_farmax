@@ -20,7 +20,8 @@ nav:
     - Liberação de Pedidos: 1.8_Liberação de Pedidos.md
   - Financeiro: 1.9_Financeiro.md
   - Logística: 1.10_Logística.md
-  - Operações: 1.11_Operações.md
+  - Planejamento: 
+    - Planejamento de Produção: 1.11_Planejamento.md
 - Engenharia de Dados: 2_Engenharia de Dados.md
 
 theme:
