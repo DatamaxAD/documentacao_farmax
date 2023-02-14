@@ -7,21 +7,20 @@ nav:
 - Bem - vindo(a): index.md 
 
 - Análise de Dados: 
-  - Antes de Começar: 1_Análise_de_Dados.md
-  - Corporativo: 1.1_Corporativo.md
+  - Antes de Começar: ad/Análise_de_Dados.md
+  - Corporativo: ad/Corporativo.md
   - Marketing: 
-    - Lançamentos: 1.2_Lançamentos.md
-    - Tabela de Produtos: 1.3_Tab_Produtos.md
+    - Lançamentos: ad/Marketing_Lançamentos.md
+    - Tabela de Produtos: ad/Marketing_Tab_Produtos.md
   - Qualidade:
-    - Mapa de Distribuição: 1.4_Mapa_de_Distribuição.md
-    - Mapa de Rastreabilidade: 1.5_Mapa_de_Rastreabilidade.md
-    - Mapa de Devolução: 1.6_Mapa_de_Devolução.md
-    - Mapa de Entrada: 1.7_Mapa_de_Entrada.md
-    - Liberação de Pedidos: 1.8_Liberação_de_Pedidos.md
-  - PMP: 
-    - PMP: 1.9_PMP.md
-  - Planejamento: 
-    - Planejamento de Produção: 1.10_Planejamento.md
+    - Mapa de Distribuição: ad/Qualidade_Mapa_de_Distribuição.md
+    - Mapa de Rastreabilidade: ad/Qualidade_Mapa_de_Rastreabilidade.md
+    - Mapa de Devolução: ad/Qualidade_Mapa_de_Devolução.md
+    - Mapa de Entrada: ad/Qualidade_Mapa_de_Entrada.md
+    - Liberação de Pedidos: ad/Qualidade_Liberação_de_Pedidos.md
+  - Operações: 
+    - PMP: ad/Operações_PMP.md
+    - Planejamento de Produção: ad/Operações_Planejamento_Producao.md
 - Engenharia de Dados: 2_Engenharia.md
 
 theme:
