@@ -46,7 +46,7 @@ Acesso via aplicativo Power BI, da seguinte forma:
 
 3. Clicar no Aplicativo - Imagem abaixo>
 
-![Imagem App Mkt](/AD_MKT/App_Mkt.png)
+![Imagem App Mkt](AD_MKT/APP_MARKETING.png)
 
 ---
 ## **USABILIDADE**
@@ -54,7 +54,7 @@ Acesso via aplicativo Power BI, da seguinte forma:
 
 ### **MATRIZ CONSULTIVA - PRODUTOS**
 
-![Matriz](/AD_MKT/Dash_Produtos_Matriz.png)
+![Matriz](AD_MKT/PRODUTOS_01_MATRIZ.png)
 
 
 
@@ -73,17 +73,17 @@ Acesso via aplicativo Power BI, da seguinte forma:
 ## **DOCUMENTAÇÃO POWER BI** <font size ="2"> - (clique abaixo para visualizar) </font>
 
 
-[**Documentação**](/AD_MKT/LISTA DE PRODUTOS.htm)
+[**Documentação**](AD_MKT/DOC_PBI_LISTA_DE_PRODUTOS.htm)
 
 ## **CANVAS** <font size ="2"> - (clique abaixo para visualizar) </font>
 
-[**Canvas**](/AD_MKT/Canvas_Marketing.pdf)
+[**Canvas**](AD_MKT/CANVAS_MARKETING.pdf)
 
 ---
 
 ## **MANUAL DO USUÁRIO** <font size ="2"> - (clique abaixo para visualizar) </font>
 
-[**Manual do Usuário**](/AD_MKT/Manual_MKT.pdf)
+[**Manual do Usuário**](AD_MKT/MANUAL_USUARIO.pdf)
 
 
 

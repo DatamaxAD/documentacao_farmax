@@ -54,7 +54,7 @@ Acesso via aplicativo Power BI, da seguinte forma:
 
 3. Clicar no Aplicativo - Imagem abaixo>
 
-![Imagem App Mkt](/AD_MKT/App_Mkt.png) 
+![APP](AD_MKT/APP_MARKETING.png)
 
 ---
 ## **USABILIDADE**
@@ -62,7 +62,7 @@ Acesso via aplicativo Power BI, da seguinte forma:
 **PÁGINA - 1**
 
 ### **VISÃO GERAL LANÇAMENTOS**
-![Imagem Visão Geral](/AD_MKT/Dash_Lancamentos.png)
+![Imagem Visão Geral](AD_MKT/LANCAMENTOS_01_VISAO_GERAL.png)
 
 **Glossário:**
 
@@ -78,7 +78,7 @@ Acesso via aplicativo Power BI, da seguinte forma:
 
 ### **MATRIZ CONSULTIVA - LANÇAMENTOS**
 
-![Matriz](/AD_MKT/Dash_Lancamentos_Matriz.png)
+![Matriz](AD_MKT/LANCAMENTOS_02_MATRIZ.png)
 
 
 
@@ -97,17 +97,17 @@ Acesso via aplicativo Power BI, da seguinte forma:
 ## **DOCUMENTAÇÃO POWER BI** <font size ="2"> - (clique abaixo para visualizar) </font>
 
 
-[**Documentação**](/AD_MKT/LANÇAMENTOS.htm)
+[**Documentação**](AD_MKT/DOC_PBI_LANCAMENTOS.htm)
 
 ## **CANVAS** <font size ="2"> - (clique abaixo para visualizar) </font>
 
-[**Canvas**](/AD_MKT/Canvas_Marketing.pdf)
+[**Canvas**](AD_MKT/CANVAS_MARKETING.pdf)
 
 ---
 
 ## **MANUAL DO USUÁRIO** <font size ="2"> - (clique abaixo para visualizar) </font>
 
-[**Manual do Usuário**](/AD_MKT/Manual_MKT.pdf)
+[**Manual do Usuário**](AD_MKT/MANUAL_USUARIO.pdf)
 
 
 
